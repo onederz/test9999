@@ -1,0 +1,836 @@
+
+body {
+    padding: 0;
+    margin: 0;
+}
+.navigation_large {
+    display: none;
+}
+#header{
+    border-radius: 5px;
+    height: 20px;
+    width: 250px;
+    background-color: black;
+}
+.navigation li:hover > a {
+    color:#B0B0B0; text-decoration:none
+}
+li.menu__single ul.menu__second-level a:hover {
+    color:#B0B0B0; text-decoration:none
+}
+li.menu__single_2 ul.menu__second-level a:hover {
+    color:#B0B0B0; text-decoration:none
+}
+li.menu__single_3 ul.menu__second-level a:hover {
+    color:#B0B0B0; text-decoration:none
+}
+a:active {
+    color:black; text-decoration:none
+}
+img {
+    max-width: 100%;
+}
+
+/*MOBILE VIEW*/
+
+#navigation_small {
+    width: 100%;
+    height: 3em;
+    font-family: 'Open Sans', Yu Gothic UI, Avenir-Medium;
+    position: relative; 
+    background-color: white;
+    z-index: 1;
+    opacity: 0.7;
+}
+#main_logo_small {
+    height: 3em;
+    float: left;
+    margin-top: 0em;
+    margin-bottom: 0.1em;
+    margin-left: 0.1em;
+    position: relative; 
+    background-color: white;
+    z-index: 1;
+    opacity: 0.7;
+}
+#main_logo_small img {
+    height: 3em;
+}
+#menu {
+    display: none;
+    width: 100%;
+    clear: both;
+    margin: 0 auto;
+    padding: 0;
+}
+#menu>li {
+    width: 100%;
+    display: block;
+    margin: 0;
+    background: black;
+    border-bottom: solid dimgray 1px;
+}
+#menu li a {
+    display: block;
+    text-align: center;
+    font-family: 'Open Sans', Yu Gothic UI, Avenir-Medium;
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+#menu li a:hover {
+    color:#B0B0B0; text-decoration:none
+}
+#whereweare_secondlevel_small {
+    display: none;
+    border-bottom: solid dimgray 1px;
+}
+#whereweare_secondlevel_small li{
+    width:;
+    display: block;
+    margin-left: -40px;
+    margin-right: 0px;
+    background: black;
+}
+#contact_secondlevel_small {
+    display: none;
+    border-bottom: solid dimgray 1px;
+}
+#contact_secondlevel_small li{
+    width:;
+    display: block;
+    margin-left: -40px;
+    margin-right: 0px;
+    background: black;
+}
+#booking_secondlevel_small {
+    display: none;
+    border-bottom: solid dimgray 1px;
+}
+#booking_secondlevel_small li{
+    width:;
+    display: block;
+    margin-left: -40px;
+    margin-right: 0px;
+    background: black;
+}
+
+/*HUMBURGER ICON*/
+
+#humburger_icon {
+    display: block;
+    position: relative;
+    width: 2.5em;
+    float: right;
+    background: ;
+    margin-top: 0.8em;
+    margin-bottom: 0em;
+}
+#humburger_icon a {
+    display: block;
+    position: relative;
+    padding: 12px 0 11px;
+    border-bottom: 2px solid white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+#humburger_icon:before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0.5em;
+    width: 1.5em;
+    height: 20px;
+    margin-top: -10px;
+    background: black;
+}
+#humburger_icon a:before, #humburger_icon a:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 55%;
+    left: 0.5em;
+    width: 1.5em;
+    height: 0.25em;
+    background: white;
+}
+#humburger_icon a:before {
+    margin-top: -6px;
+}
+#humburger_icon a:after {
+    margin-top: 2px;
+}
+
+/*YOU ARE HERE*/
+
+.you-are-here {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0.4em;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    clear: both;
+    border-top: 0.1em solid dimgray;
+    border-bottom: 0.1em solid dimgray;
+}
+.you-are-here a {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.no-link {
+    pointer-events: none;
+}
+
+/*TOP PHOTO*/
+
+#background {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    margin-top: -5.2em;
+    width: 100%;
+    font-family: 'Open Sans', Yu Gothic UI, Avenir-Medium;
+    position: relative; 
+    z-index: 0;
+}
+.contents-top {
+    height: ;
+    width: 1200px;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: ;
+    margin-bottom: ;
+    max-width: 100%;
+}
+.contents-top h1 {
+    width: 90%; 
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1.5em;
+}
+.contents-top h2 {
+    width: 90%; 
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 3%;
+    font-size: 1.2em;
+    margin-top: 7%;
+}
+.contents-top-khmer-house h1 {
+    width: 90%; 
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1.5em;
+    margin-top: -36%;
+    color: white;
+}
+#siem-reap-hostel-location {
+    width: 100%;
+    background-image: url("../images/img-siem-reap-hostel-location-2.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#top-photo-siem-reap {
+    width: 100%;
+    background-image: url("../images/siem-reap-top-photo.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 75%;
+}
+#top-photo-phnom-penh {
+    width: 100%;
+    background-image: url("../images/go-to-phnom-penh.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#top-photo-sihanoukville {
+    width: 100%;
+    background-image: url("../images/sihanoukville-top-mobile.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}  
+#top-photo-koh-rong-sanloem {
+    width: 100%;
+    background-image: url("../images/koh-rong-sanloem-top-mobile.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 75%;
+}  
+#top-photo-kampot {
+    width: 100%;
+    background-image: url("../images/kampot/main_img_sp.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 75%;
+}   
+
+
+/*INTRODUCTION*/
+
+#introduction-siem-reap {
+    margin-top: -4%;
+    margin-bottom: -4%;
+}
+#introduction p {
+    line-height: 170%;
+    font-size: 1.1em;
+}
+#introduction_message {
+    font-size: 1em;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 2%;
+    text-align: left; 
+}
+#introduction-message-1 {
+    padding-left: 5%;
+    padding-right: 3%;
+    text-align: left;
+    margin-top: 0;
+}
+#introduction-message-2 {
+    padding-left: 5%;
+    padding-right: 3%;
+    text-align: left;
+}
+#introduction-message-3 {
+    padding-left: 5%;
+    padding-right: 3%;
+    text-align: left;
+    padding-bottom: 12%;
+    margin-bottom: 0;
+}
+#location {
+    font-size: 1.4em;
+    margin-top: 7%;
+    margin-bottom: 0%;
+}
+#mobile-contents {
+    width: 75%;
+    background-image: url("../images/2nd-best-large-hostel-worldwide-2020.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 10%;
+}
+
+#map {
+    width: 90%;
+    height: 300px;
+    margin-top: -7%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+#map-description {
+    line-height: 170%;
+    font-size: 1.1em;
+    padding-left: 5%;
+    padding-right: 3%;
+    text-align: left;
+    padding-bottom: 12%;
+    margin-bottom: 0;
+}
+.hide-smart {
+    display: none;
+}
+
+
+
+/*PAGE CONTENTS*/
+
+
+.contents-title {
+    text-align: left;
+    padding-left: 4.5%;
+    padding-top: 5%;
+    font-size: 1.7em;
+    margin-bottom: 0em;
+    font-weight: normal;
+    clear: both;
+}
+.contents-title-right {
+    text-align: right;
+    padding-left: 4.5%;
+    font-size: 1.7em;
+    margin-top: -59%;
+    margin-bottom: 0em;
+    margin-right: 5%;
+    color: white;
+    font-weight: normal;
+}
+
+
+.contents-middle {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+.contents_middle_description {
+    width: 100%;
+    text-align: center;
+    padding-top: 0%;
+    clear: both;
+    float: left;
+}
+.contents_middle_description_text {
+    text-align: left;
+    padding-left: 4.5%;
+    font-size: 1.7em;
+    margin-top: -59%;
+    margin-bottom: 0em;
+    color: white;
+    font-weight: normal;
+}
+.contents-description-detail-long-text {
+    text-align: left;
+    margin-top: -12%;
+    margin-bottom: 0em;
+    font-size: 1em;
+    color: white;
+}
+.contents-introduction {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.contents-introduction-2 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.contents-introduction-text {
+    clear: both;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-size: 1.1em;
+}
+.contents-introduction-text a {
+    line-height: 170%;
+}
+.contents-introduction-view-more {
+    clear: both;
+    padding-bottom: 4%;
+    text-align: right;
+}
+.contents-middle-description p {
+    clear: both;
+    width: 92%;
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.inline-2or3 {
+    width: 100%;
+    float: left;
+}
+.inline-2 {
+    width: 50%;
+    float: left;
+}
+#go-to-night-market {
+    clear: both;
+    float: left;
+    width: 100%;
+    background-image: url("../images/go-to-angkor-night-market-mobile2.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 61.8%;
+}
+#go-to-pub-street {
+    clear: both;
+    float: left;
+    width: 100%;
+    background-image: url("../images/go-to-pubstreet-mobile.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 61.8%;
+}
+.contents-description-left {
+    width: 100%;
+    font-size: 0.9em;
+    text-align: center;
+    height: 0;
+    padding-top: 50%;
+    clear: both;
+    float: left;    
+}
+.contents-description {
+    width: 100%;
+    font-size: 0.9em;
+    text-align: center;
+    height: 0;
+    padding-top: 50%;
+    clear: both;
+    float: left;
+}
+.contents-description-title {
+    text-align: left;
+    padding-left: 5%;
+    margin-top: -58%;
+    margin-bottom: -7%;
+    width: 95%;
+    float: left;
+    color: white;
+    font-size: 1.1em;
+}
+.contents-description-detail-left p {
+    text-align: left;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    font-size: 0.9em;
+    width: 95%;
+    color: black;
+    clear: both;
+}
+.contents-description-detail-right p {
+    text-align: left;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    font-size: 0.9em;
+    width: 95%;
+    color: black;
+    clear: both;
+ }
+
+/*SIEM REAP PAGE CONTENTS*/
+
+#sr-goto-room-photo {
+    clear: both;
+    float: left;
+    width: 100%;
+    background-image: url("../images/siem-reap-rooms.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#sr_goto_facilities_photo {
+    clear: both;
+    float: left;
+    width: 100%;
+    background-image: url("../images/onederzsr-facilities.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#sr_goto_tour_photo {
+    clear: both;
+    float: left;
+    width: 100%;
+    background-image: url("../images/siem-reap-tour.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#sr_goto_location_photo {
+    clear: both;
+    float: left;
+    width: 100%;
+    background-image: url("../images/siem-reap-location.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#sr_goto_contact_photo {
+    clear: both;
+    float: left;
+    width: 100%;
+    background-image: url("../images/siem-reap-contact.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#sr_goto_booking_photo {
+    clear: both;
+    float: left;
+    width: 100%;
+    background-image: url("../images/siem-reap-bookings.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#sr-go-to-airport-pickup-photo {
+    clear: both;
+    float: left;
+    width: 100%;
+    background-image: url("../images/siem-reap-airport-pickup.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+
+/*KAMPOT PAGE CONTENTS*/
+
+#kampot-contents-rooms-photo {
+    clear: both;
+    float: left;
+    width: 95%;
+    background-image: url("../images/kampot/contents_img01.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#kampot-contents-facilities-photo {
+    clear: both;
+    float: right;
+    width: 95%;
+    background-image: url("../images/kampot/contents_img02.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#kampot-contents-tour-photo {
+    clear: both;
+    float: left;
+    width: 95%;
+    background-image: url("../images/kampot/contents_img03.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#kampot-contents-location-photo {
+    clear: both;
+    float: right;
+    width: 95%;
+    background-image: url("../images/kampot/contents_img04.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#kampot-contents-contact-photo {
+    clear: both;
+    float: right;
+    width: 95%;
+    background-image: url("../images/kampot/contents_img05.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#kampot-contents-booking-photo {
+    clear: both;
+    float: left;
+    width: 95%;
+    background-image: url("../images/kampot/contents_img06.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+
+
+/*PHNOM PENH PAGE CONTENTS*/
+#pp-contents-rooms-photo {
+    clear: both;
+    float: left;
+    width: 95%;
+    background-image: url("../images/phnom-penh/phnom_penh_room.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#pp-contents-facilities-photo {
+    clear: both;
+    float: right;
+    width: 95%;
+    background-image: url("../images/phnom-penh/phnom_penh_facilities.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#pp-contents-tour-photo {
+    clear: both;
+    float: left;
+    width: 95%;
+    background-image: url("../images/phnom-penh/phnom_penh_tour.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#pp_goto_tour_photo {
+    clear: both;
+    float: left;
+    width: 100%;
+    background-image: url("../images/phnom-penh-tour.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#pp_goto_location_photo {
+    clear: both;
+    float: left;
+    width: 100%;
+    background-image: url("../images/phnom-penh-location-2.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#pp_goto_contact_photo {
+    clear: both;
+    float: left;
+    width: 100%;
+    background-image: url("../images/phnom-penh-contact.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#pp_goto_booking_photo {
+    clear: both;
+    float: left;
+    width: 100%;
+    background-image: url("../images/siem-reap-booking.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+
+/*SIHANOUKVILLE PAGE CONTENTS*/
+
+#shv_goto_room_photo {
+    clear: both;
+    float: left;
+    width: 100%;
+    background-image: url("../images/sihanoukville-rooms.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#shv_goto_facilities_photo {
+    clear: both;
+    float: left;
+    width: 100%;
+    background-image: url("../images/sihanoukville-facilities.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#shv_goto_tour_photo {
+    clear: both;
+    float: left;
+    width: 100%;
+    background-image: url("../images/sihanoukville-tour.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#shv_goto_location_photo {
+    clear: both;
+    float: left;
+    width: 100%;
+    background-image: url("../images/sihanoukville-location.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#shv_goto_contact_photo {
+    clear: both;
+    float: left;
+    width: 100%;
+    background-image: url("../images/sihanoukville-contact.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#shv_goto_booking_photo {
+    clear: both;
+    float: left;
+    width: 100%;
+    background-image: url("../images/siem-reap-booking.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+
+/*KOH RONG SANLOEM PAGE CONTENTS*/
+
+#krs-goto-room-photo {
+    clear: both;
+    float: left;
+    width: 100%;
+    background-image: url("../images/sihanoukville-rooms.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#krs-goto-facilities-photo {
+    clear: both;
+    float: left;
+    width: 100%;
+    background-image: url("../images/koh-rong-sanloem-facilities.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+#krs-goto-location-photo {
+    clear: both;
+    float: left;
+    width: 100%;
+    background-image: url("../images/koh-rong-sanloem-location.jpg");
+    background-size: cover;
+    height: 0;
+    padding-top: 62%;
+}
+
+
+#branch_information a:link {
+    color:white; text-decoration:none
+}
+#branch_information a:visited {
+    color:white; text-decoration:none
+}
+
+#branch-footer {
+    clear: both;
+    font-family: 'Open Sans', Yu Gothic UI, Avenir-Medium;
+    text-align: center;
+    font-size: 0.9em;
+    color: white;
+    background-color: black;
+    border-bottom: 0.1em solid dimgray;
+}
+#branch-footer p {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a:link {
+    color:black; text-decoration:none
+}
+a:visited {
+    color:black; text-decoration:none
+}
+a:hover {
+    color:#B0B0B0; text-decoration:none
+}
+
+.you-are-here a:link {
+    color:white; text-decoration:none
+}
+.you-are-here a:visited {
+    color:white; text-decoration:none
+}
+.you-are-here a:hover {
+    color:#B0B0B0; text-decoration:none
+}
+
+.inline-2 a:link {
+    color:white; text-decoration:none
+}
+.inline-2 a:visited {
+    color:white; text-decoration:none
+}
+.inline-2 a:hover {
+    color:#B0B0B0; text-decoration:none
+}
